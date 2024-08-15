@@ -1,0 +1,44 @@
+.title {
+    max-width: 600px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #59060FFF;
+    padding-bottom: 30px;
+}
+
+a:-webkit-any-link {
+    color: #0f0f0f;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.categories {
+    max-width: 600px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+
+    .category{
+        max-width: 600px;
+        margin-right: 40px;
+        font-style: italic;
+        background-color: #9D7075FF;
+        border-radius: 10px;
+        padding: 10px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .category:hover {
+        box-shadow: 0px 3px 20px -3px #594B4DFF;
+    }
+
+}
+
+.text{
+    max-width: 600px;
+    text-align: justify;
+    font-size: 20px;
+    color: #2C060FFF;
+}

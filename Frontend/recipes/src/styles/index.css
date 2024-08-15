@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&display=swap');
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-style: normal;
+}
+
+.global_container:before {
+  z-index:-1;
+  position:absolute;
+  content: url('../assets/images/background.jpg');
+  opacity:0.6;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 20px;
+  position: relative;
+}
